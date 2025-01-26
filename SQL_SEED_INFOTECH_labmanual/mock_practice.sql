@@ -328,5 +328,6 @@ where location_id=&location_id;
 
 select hire_date,job_id
 from employees
-group by hire_date,job_id
+group by hire_date,job_id;
+
 
