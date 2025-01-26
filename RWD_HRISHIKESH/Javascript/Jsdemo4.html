@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<script type="text/javascript">
+		function changestyle(){
+			var element=document.getElementsByTagName("h3");
+			 for (var i = 0; i < element.length; i++) {
+                element[i].style.textAlign = "center"; 
+                element[i].style.color = "red";
+                element[i].style.fontSize = "100px";
+            }
+document.getElementById("para").style.textAlign = "center"; 
+document.getElementById("para").style.color = "yellow";
+document.getElementById("para").style.fontSize = "50px";  
+
+                
+            
+
+		}
+	</script>
+</head>
+<body >
+<div style="border: dotted;">
+	<h3>Seed infotech</h3>
+	<p id="para"> beyond the obvious</p>
+	
+	<input type="button" value="Change" onclick="changestyle()"/>
+	
+
+</div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+
+            header{
+font-size: 40px;
+color: whitesmoke;
+
+
+}
+
+button{
+font-size: 25px;
+color: rgb(196, 28, 28);
+background: rgb(183, 185, 25);
+
+
+}
+button:hover{
+font-size: 35px;
+background-color: blue;
+color: whitesmoke;
+}
+
+.total{
+margin: 0;
+padding: 0;
+background-color: rgb(10, 10, 73);
+
+}
+.department{
+text-align: center;
+color: rgb(202, 212, 51);
+width: 1500px;
+height: 200px;
+margin: 0;
+padding: 0;
+background-image: url("department.png");
+background-repeat: no-repeat;
+background-size: cover;
+border:solid black;
+font-size: 30px;
+}
+.faculty{font-display: center;}
+.faculty1{
+display: flex;
+border: solid black;
+margin-right: 5%;
+background-color: wheat;
+font-size: 110%;
+}
+.faculty2{
+margin-right: 5%;
+display: flex;
+border: solid black;
+background-color: wheat;
+font-size: 110%;
+}
+.class1{
+display: flex;
+margin-right: 5%;
+
+}
+fieldset{
+color: tomato;
+background-color: rgb(29, 223, 230);
+}
+table{
+text-align: center;
+width: 500px;
+height: 350px;
+border:solid black;
+border-collapse: collapse;
+
+}
+tr{
+font-size: 25px;
+text-align: center;
+border:solid black;
+border-collapse: collapse;
+color: rgb(216, 57, 45);
+background-color: rgb(139, 238, 130);
+}
+td:hover{
+background: rgb(10, 10, 85);
+font-size: 35px;
+border:solid whitesmoke;
+color: whitesmoke;
+}
+.end{
+background-image: url(4.jpg);
+background-repeat: no-repeat;
+animation:slider 20s infinite linear;
+background-size: cover;
+}
+@keyframes slider{
+0%{background-image: url(4.jpg);}
+35%{background-image: url(1.jpg);}
+70%{background-image: url(2.jpg);}
+100%{background-image: url(3.png);}
+}
+.library{
+border: solid black;
+background-color: wheat;
+display: flex;
+}
+.library1{
+border-left: solid black;
+}
+legend:hover{
+font-size: 30px;
+}
+
+       

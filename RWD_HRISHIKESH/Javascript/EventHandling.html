@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>new document</title>
+	<script type="text/javascript" language="javascript">
+		function add(num1,num2) {
+			var res=num1+num2;
+			alert("Addition is :"+res);
+		}
+		function sub(num1,num2) {
+			var res=num1-num2;
+			alert("Substraction is :"+res);
+		}
+		function mul(num1,num2) {
+			var res=num1*num2;
+			alert("Multiplication is :"+res);
+		}
+		function div(num1,num2) {
+			var res=num1/num2;
+			alert("Division is :"+res);
+		}
+		function mod(num1,num2) {
+			var res=num1%num2;
+			alert("Mod is :"+res);
+		}
+
+	</script>
+</head>
+<body>
+<script type="text/javascript">
+	var i=parseInt(prompt("Enter number1"));
+		var j=parseInt(prompt("Enter number2"));
+			document.write("<input type='button' onclick='add(i,j)'value='Addition'/>");
+			document.write("<input type='button' onclick='sub(i,j)'value='Substraction'/>");
+			document.write("<input type='button' onclick='mul(i,j)'value='Multiplication'/>");
+			document.write("<input type='button' onclick='div(i,j)'value='Division'/>");
+			document.write("<input type='button' onclick='mod(i,j)'value='Modulus'/>");
+
+</script>
+</body>
+</html>

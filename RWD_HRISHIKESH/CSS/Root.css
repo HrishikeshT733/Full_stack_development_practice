@@ -1,0 +1,8 @@
+body{
+	background: url("B:/RWD_HRISHIKESH/Images/Sunset.jpg");  /*backward slash (\) changed to forward slash(/) ,because it is URL
+}
+.p2{
+	font-family: monospace;
+	color: rgb(45, 45, 90);
+	font-size: 80px;
+}

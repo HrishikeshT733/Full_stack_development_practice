@@ -1,0 +1,336 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"ChangeStyle"
+			],
+			[
+				"on",
+				"onclick"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"ch",
+				"ChangeStyle"
+			],
+			[
+				"font",
+				"fontFamily"
+			],
+			[
+				"ma",
+				"maroon"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"bgc",
+				"background-color"
+			],
+			[
+				"bg",
+				"background-color"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"cell",
+				"cellspacing"
+			],
+			[
+				"onmouseo",
+				"onmouseover"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"nu",
+				"num2"
+			],
+			[
+				"lang",
+				"language"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"su",
+				"super"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"li",
+				"link"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"gre",
+				"green"
+			],
+			[
+				"fig",
+				"figcaption"
+			],
+			[
+				"opt",
+				"option"
+			],
+			[
+				"de",
+				"details"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 131.199996948,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/B/RWD_HRISHIKESH/Javascript/EventHandling.html",
+		"/B/RWD_HRISHIKESH/Javascript/forlpattern2.html",
+		"/B/RWD_HRISHIKESH/Javascript/Jsdemo4.html",
+		"/B/RWD_HRISHIKESH/Javascript/jsdemo3.html",
+		"/B/RWD_HRISHIKESH/Javascript/JSDemo2.html",
+		"/B/RWD_HRISHIKESH/Javascript/JSDemo1.html",
+		"/B/RWD_HRISHIKESH/Javascript/extern.js",
+		"/B/RWD_HRISHIKESH/Javascript/Externaljavascript.html",
+		"/B/RWD_HRISHIKESH/Javascript/DOM/forloop-pattern3.html",
+		"/B/RWD_HRISHIKESH/Javascript/DOM/demo_dom4.html",
+		"/B/RWD_HRISHIKESH/Javascript/DOM/demo_dom2.html",
+		"/B/RWD_HRISHIKESH/Lab_manual/Timetable.html",
+		"/B/RWD_HRISHIKESH/Javascript/DOM/demo_dom1.html",
+		"/B/RWD_HRISHIKESH/CSS/demo3_transition.html",
+		"/B/RWD_HRISHIKESH/CSS/Demo1_animation.html",
+		"/B/RWD_HRISHIKESH/Javascript/ifelse.html",
+		"/B/RWD_HRISHIKESH/CSS/cssdiv.css",
+		"/B/RWD_HRISHIKESH/CSS/Divdemo.html",
+		"/B/RWD_HRISHIKESH/CSS/Root.css",
+		"/B/RWD_HRISHIKESH/Javascript/DOM/demo_dom3.html",
+		"/B/RWD_HRISHIKESH/Javascript/for(pattern).html",
+		"/B/RWD_HRISHIKESH/Practice/Table(rowspan,colspan).html",
+		"/B/RWD_HRISHIKESH/CSS/Externalcss.html",
+		"/B/RWD_HRISHIKESH/CSS/External.css",
+		"/B/RWD_HRISHIKESH/CSS/layoutusingcss.html",
+		"/B/RWD_HRISHIKESH/CSS/InternalCss.html",
+		"/B/RWD_HRISHIKESH/CSS/Inlinecss.html",
+		"/B/RWD_HRISHIKESH/Form.html",
+		"/B/RWD_HRISHIKESH/Tabel(rowspan,colspan).html",
+		"/B/RWD_HRISHIKESH/Practice(rowspan,colspan).html",
+		"/B/RWD_HRISHIKESH/listdemo.html",
+		"/B/RWD_HRISHIKESH/Linkdemo.html",
+		"/B/RWD_HRISHIKESH/Audiovideo.html",
+		"/B/RWD_HRISHIKESH/Lab_manual/Ex1.html",
+		"/B/RWD_HRISHIKESH/Lab_manual/aasd.html",
+		"/B/RWD_HRISHIKESH/Lokmanya.html",
+		"/B/RWD_HRISHIKESH/Hello.html",
+		"/B/RWD_HRISHIKESH/Table.html"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "EventHandling.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,42 @@
+.div-tag{
+	border: solid red;
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin-left: 20px;
+	font-size: 50px;
+	text-align: center;
+}
+h3{
+	margin-top: 30px;
+}
+#d1,#d3{
+	background-color: aqua;
+}
+#d2,#d4{
+	background-color: pink;
+}
+#d1{
+	box-shadow: 10px 10px gray;
+}
+#d4{
+	border-radius: 100%;
+	border-style: dotted;
+}
+#d2:hover{
+	box-shadow: 10px 10px dimgray;
+	border-radius: 50%;
+	background-color: lightblue;
+	transition: 4s;
+}
+#d3:hover{
+transform: rotate(360deg);
+	/*transform: translate3d(750px,250px,650px);
+		transform: translate3d(-310px,450px,-50px); */
+	transition: 4s;
+}
+
+#d1:hover{
+	transform: translate3d(310px,450px,50px);
+	transition: 4s;
+}

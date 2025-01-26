@@ -1,0 +1,103 @@
+.class{
+   border:solid black;
+ background: linear-gradient(#c1c2cc,#000);
+    display: flex;
+    font-size: 20px;
+}
+.class2{  display: flex;
+    background-color: burlywood;
+   font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30%;
+    font-size: 18px;
+    border:solid black;
+    color: rgb(12, 94, 55);
+}
+u:hover{
+    font-size: 28px;
+}
+.fashion{
+    border: solid black;
+margin-left: 8%;
+ background-image: url(/10.jpg);
+   background-repeat: no-repeat;
+ animation:slider 10s infinite linear;
+ width: 1200px;
+ height: 650px;
+ border:solid #000;
+}
+@keyframes slider{
+    0%{background-image: url(/10.jpg);}
+    35%{background-image: url(/8.PNG);}
+    75%{background-image: url(/9.PNG);}
+    100%{background-image: url(/10.jpg);}
+}
+.main{
+    border: solid black;
+    border-style: dotted;
+    border-bottom: solid black;
+}
+.container{
+    display: inline-block;
+    width: 20%;
+    border-radius: 8px;
+    background-color: cornflowerblue;
+    margin: 40px;
+    box-shadow: 2px 2px 10px black;   
+}
+.image img{
+    width: 100%;
+    border-top-right-radius: 8px;  
+    border-top-left-radius: 8px;  
+}
+.title{
+    text-align: center;
+}
+.description{
+    font-style: oblique;
+}
+button{
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: whitesmoke;
+}
+button:hover{
+    background-color: whitesmoke;
+    color: black;
+       transition: 1s;
+}
+footer{
+    height: 250px;
+    background-color: black;
+    display: flex;
+}
+.foot1{
+ margin-left: 5%;
+}
+.foot2{
+      margin-top: 4%;
+    margin-left: 15%;
+    text-align: right;
+    color: whitesmoke;
+}
+.facilities{
+    display: inline-block;
+    width: 20%;
+    border-radius: 8px;
+    background-color: rgb(197, 131, 56);
+    margin: 20px;
+    box-shadow: 2px 2px 10px black;
+    }
+    .text{
+        text-align: center;
+         font-style: italic;
+    }
+    .photo img{
+        width: 100%;
+        border-top-right-radius: 8px;  
+        border-top-left-radius: 8px; 
+}
+
+
+

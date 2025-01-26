@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jsdemo3</title>
+<script type="text/javascript">
+	function ChangeStyle(){
+		var arr=document.getElementsByTagName("p");
+		for(var i=0;i<arr.length;i++){
+          arr[i].style.color="red";
+          arr[i].style.fontFamily="Monotype Corsive";
+          arr[i].style.fontSize="30px";
+          arr[i].innerHTML="Happy Me..."+i;
+
+		}
+		document.getElementById("changeit").innerHTML="Bye Bye...!";
+	}
+
+</script>
+</head>
+<body>
+<p>This is Paragraph1</p>
+<p>This is Paragraph2</p>
+<p>This is Paragraph3</p>
+<p>This is Paragraph4</p>
+<p id="changeit">This is Paragraph5</p>
+<input type="button" value="Change Style" on click="ChangeStyle()">
+</body>
+</html>

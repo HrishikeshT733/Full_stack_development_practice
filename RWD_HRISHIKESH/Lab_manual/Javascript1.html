@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <style type="text/css">
+        label{
+            display: inline-block;
+            width: 140px;
+        }
+        
+    </style>
+ <script>
+    function calculate(operation) {
+        var num1 = parseFloat(document.getElementById('num1').value);
+        var num2 = parseFloat(document.getElementById('num2').value);
+
+        if (isNaN(num1) || isNaN(num2)) {
+            alert('Please enter valid numbers');
+            return;
+        }
+
+        let result;
+        switch (operation) {
+            case "add":
+                result = num1 + num2;
+                break;
+            case 'sub':
+                result = num1 - num2;
+                break;
+            case 'mul':
+                result = num1 * num2;
+                break;
+            case 'div':
+                if (num2 === 0) {
+                    alert('Cannot divide by zero');
+                    return;
+                }
+                result = num1 / num2;
+                break;
+            default:
+                result = 'Invalid operation';
+        }
+
+        document.getElementById('result').value = result;
+    }
+
+    function clearFields() {
+        document.getElementById('num1').value = '';
+        document.getElementById('num2').value = '';
+        document.getElementById('result').value = '';
+    }
+</script>
+
+</head>
+<body>
+
+<form style="border: solid; padding: 5px 5px 5px 5px; width: fit-content;">
+    
+    <label for="first">First Number1:</label> 
+    <input type="text"  id="num1" name="first" onfocus=""/><br><br>
+
+    <label for="second">Second Number1:</label> 
+    <input   type="text" id="num2" name="second"onfocus=""/><br><br>
+
+    <label for="answer">Answer: </label> 
+    <input   type="text" id="result"/><br><br>
+
+
+    <input type="button" name="Add" onclick="calculate('add')" value="Addition">
+    <input type="button" name="Mul" onclick="calculate('mul')" value="Multiply">
+    <input type="button" name="Div" onclick="calculate('div')" value="Division">
+    <input type="button" name="Sub" onclick="calculate('sub')" value="Substraction">
+    <input type="button" name="Clear" onclick="clearFields()" value="Clear">
+    
+
+</form>
+
+
+</body>
+</html>

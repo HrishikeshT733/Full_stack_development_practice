@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript">
+		function bus() {
+
+		if(document.getElementById("f").checked){
+			alert(document.getElementById("name").value+"'s 50% off");
+		}else if(document.getElementById("m").checked){
+			alert(document.getElementById("name").value+"'s ticket booked successfully");
+		}
+		}
+	</script>
+</head>
+<body>
+<label>Num1:</label>
+<input type="text" id="name">
+<br/>
+<input type="radio" name="Gender" value="female" id="f">Female
+<input type="radio" name="Gender" value="male" id="m">Male
+<br>
+<input type="button" name="btn" value="Button" onclick="bus()">
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript">
+		function setstyle1() {
+		document.getElementById("fname").style.background="yellow";
+		}
+		function setstyle2() {
+           document.getElementById("fname").style.background="red";
+           document.getElementById("fname").style.height="300px";
+           document.getElementById("fname").style.width="900px";
+		}
+	</script>
+</head>
+<body>
+first name: <input type="text" onfocus="setstyle1()" onblur="setstyle2()" id="fname"/><br/>
+</body>
+</html>

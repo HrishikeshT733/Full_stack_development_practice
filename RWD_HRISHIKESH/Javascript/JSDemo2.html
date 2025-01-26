@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jsdemo2</title>
+</head>
+<body>
+<div>
+	<img src="B:\RWD_HRISHIKESH\Images\lighthouse.webp" width="200" height="200"/>
+</div>
+<div id="d2">
+	<script type="text/javascript">
+		var shoppinglist=['Laptop',2,'Wallet','Pen','Pencil'];
+		document.write("<fieldset style='color:blue'>");
+		document.write("<legend>shopping list</legend>");
+		document.write("<ol>");
+
+//method 1 'of'--it will use product as value
+		for(var product of shoppinglist){
+			document.write("<li>"+product+"</li>");
+
+		}
+
+		document.write("</ol>");
+		document.write("<ol>");
+//method 2  'in'   --it will use product as array index
+		for(var product in shoppinglist){
+			document.write("<li>"+shoppinglist[product]+"</li>");
+
+		}
+
+		document.write("</ol>");
+		document.write("</fieldset>");
+
+	</script>
+
+</div>
+</body>
+</html>

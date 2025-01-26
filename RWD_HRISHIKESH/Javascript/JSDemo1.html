@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JS Demo Table</title>
+	<style type="text/css">
+		table{
+			border: 5px groove red;
+		}
+		tr:nth-child(even){
+			background-color: maroon;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+<script type="text/javascript">
+	var num=prompt("Enter number of rows");
+     document.write("<table>");
+	for(var i=1;i<=num;i++){
+       document.write("<tr><td>Data for"+i+" cell</td></tr>");
+	}
+	   document.write("</table>");
+</script>
+</body>
+</html>
