@@ -1,0 +1,12 @@
+package com.project.employee.util;
+import java.util.*;
+
+public class UtilityReport {
+public  static void showreport(Employee[] er){
+	HashMap hs=new HashMap();
+	for(int i=0;i<er.length;i++){
+		hs.put(er[i].Employee_Name, er[i].Basic_salary);
+	}
+	System.out.println(hs);
+}
+}

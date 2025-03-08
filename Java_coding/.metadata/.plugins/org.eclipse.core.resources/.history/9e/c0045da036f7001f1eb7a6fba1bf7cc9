@@ -1,0 +1,12 @@
+package com.project.employee.util;
+import Employee;
+
+public class SearchUtil{
+public void searchEmpInfo(int e,Employee er) throws EmployeeRecordNotFoundException{
+  if(e==er.empId){
+	  System.out.println(er);
+  }else
+	  throw new EmployeeRecordNotFoundException("Employee details not found");
+	
+}
+}

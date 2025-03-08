@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class AccountMain {
+public static void main(String[] args)  throws LessBalanceException{
+	Account.getInterestRate();
+	Account a=new Account(201,"Harish",20000);
+	System.out.println("Enter amount you want to withdraw ");
+	Scanner sc=new Scanner(System.in);
+	int w=sc.nextInt();
+    if(w<=a.balance){
+    	System.out.println("Withdrawl of rs "+w+" is successful");
+    	System.out.println("Remaining bal is "+(a.balance-w));
+    }else
+    	throw new LessBalanceException("Balance is not sufficient in your account"); 
+    System.out.println("Transaction finished");
+}
+}

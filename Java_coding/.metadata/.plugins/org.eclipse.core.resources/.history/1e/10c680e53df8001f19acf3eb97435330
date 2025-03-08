@@ -1,0 +1,14 @@
+
+public class ReflectionDemo {
+public static void main(String[] args) {
+	try{
+		Class c=Class.forName("Employee");
+		System.out.println("Employee class is loaded");
+		Employee e=(Employee)c.newInstance();
+		e.show();
+		c.getClass();
+	}catch(ClassNotFoundException | InstantiationException | IllegalAccessException e){
+		e.printStackTrace();
+	}
+}
+}

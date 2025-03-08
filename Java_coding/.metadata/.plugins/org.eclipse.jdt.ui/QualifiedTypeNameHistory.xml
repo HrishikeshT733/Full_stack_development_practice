@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.awt.print.Printable"/>
+<fullyQualifiedTypeName name="org.omg.Messaging.SyncScopeHelper"/>
+<fullyQualifiedTypeName name="HR"/>
+<fullyQualifiedTypeName name="Student"/>
+<fullyQualifiedTypeName name="Employee"/>
+<fullyQualifiedTypeName name="Manager"/>
+<fullyQualifiedTypeName name="MarketingExecutive"/>
+<fullyQualifiedTypeName name="com.descentGarage.entity.Vehicle"/>
+<fullyQualifiedTypeName name="com.descentGarage.entity.Car"/>
+<fullyQualifiedTypeName name="com.descentGarage.entity.CNGCar"/>
+<fullyQualifiedTypeName name="com.descentGarage.entity.DieselCar"/>
+<fullyQualifiedTypeName name="com.descentGarage.services.Servicable"/>
+<fullyQualifiedTypeName name="com.descentGarage.services.BillingPrintable"/>
+<fullyQualifiedTypeName name="com.InnerClass.SimpleInnerClass.Car.Engine"/>
+<fullyQualifiedTypeName name="com.CollegeABC.provider.Hosteller"/>
+<fullyQualifiedTypeName name="Nurse"/>
+<fullyQualifiedTypeName name="com.CollegeABC.provider.Student"/>
+<fullyQualifiedTypeName name="java.util.Optional"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
+<fullyQualifiedTypeName name="java.util.TreeSet"/>
+<fullyQualifiedTypeName name="java.util.NavigableSet"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="Account.Locker"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.project.employee.util.Employee"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

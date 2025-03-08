@@ -1,0 +1,25 @@
+package com.aage;
+
+import java.util.Scanner;
+
+public class IndianVotingBooth {
+		//member Function
+		public void eligibilityForVoting() throws EligibilityException{
+			System.out.println("Enter your age:");
+			Scanner sc=new Scanner(System.in);
+			int age=sc.nextInt();
+			if(age>18)
+				System.out.println("you are eligible for vote");
+			else 
+				throw new EligibilityException("You are not eligible for vote");
+	}
+		public void eligibilityForVotingCandiate() throws EligibilityException{
+			System.out.println("Enter your age:");
+			Scanner sc=new Scanner(System.in);
+			int age=sc.nextInt();
+			if(age<65 &&age>25)
+				System.out.println("you are eligible for voting Ticket");
+			else 
+				throw new EligibilityException("You are not eligible for voting Ticket");
+	}
+}

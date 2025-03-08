@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class AccountMain {
+
+public static void main(String[] args){
+	Account.getInterestRate();
+	
+	Account a=new Account(201,"Harish",20000);
+	try{
+	a.withdrawl(a);
+	}catch(LessBalanceException e){
+		System.err.println(e);
+	}
+	
+    System.out.println("Transaction finished");
+}
+}

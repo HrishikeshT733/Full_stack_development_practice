@@ -1,0 +1,45 @@
+
+public class Account {
+//static variable declaration
+	public static float interestRate;
+	public int accountID;
+	public String accountName;
+	public double balance;
+	public static double bal=20000;
+	public Account(int accountID, String accountName, double balance) {
+		super();
+		this.accountID = accountID;
+		this.accountName = accountName;
+		this.balance = balance;
+	}
+	
+	public Account() {
+		super();
+	}
+
+	//static block
+	static{
+		interestRate=8.5f;
+	
+	}
+	//static method
+	public static void getInterestRate(){
+		System.out.println(interestRate);
+	}
+	
+	class Locker{
+		 int locId;
+
+		public Locker(int locId) {
+			super();
+			this.locId = locId;
+		}
+
+		public Locker() {
+			super();
+		}
+		public void print(Account d){
+			System.out.println("AccountId: "+d.accountID+" AccountName: "+d.accountName+" Balance: "+d.balance);
+		}
+	}
+}

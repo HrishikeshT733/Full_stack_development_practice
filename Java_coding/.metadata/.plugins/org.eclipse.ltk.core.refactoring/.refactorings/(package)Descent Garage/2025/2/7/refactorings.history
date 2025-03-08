@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;come.descentGarage.client&apos; to &apos;com.descentGarage.client&apos;&#x0D;&#x0A;- Original project: &apos;(package)Descent Garage&apos;&#x0D;&#x0A;- Original element: &apos;(package)Descent Garage/src/come.descentGarage.client&apos;&#x0D;&#x0A;- Renamed element: &apos;(package)Descent Garage/src/com.descentGarage.client&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;come.descentGarage.client&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;come.descentGarage.client" name="com.descentGarage.client" qualified="false" references="true" stamp="1739425900668" textual="false" version="1.0"/>
+</session>

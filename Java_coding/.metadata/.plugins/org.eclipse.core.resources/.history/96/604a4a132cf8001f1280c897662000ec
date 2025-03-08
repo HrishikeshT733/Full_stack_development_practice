@@ -1,0 +1,15 @@
+package com.project.employee.util;
+
+import java.util.ArrayList;
+
+public class SearchUtil{
+public  static Employee searchEmpInfo(int e,ArrayList<Employee>er) throws EmployeeRecordNotFoundException{
+  for(Employee e:er){
+	if(e==er.empId){
+	  System.out.println(er);
+  }else
+	  throw new EmployeeRecordNotFoundException("Employee details not found");
+	return er;
+}
+}
+}
